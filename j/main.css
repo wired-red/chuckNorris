@@ -1,0 +1,46 @@
+*,
+::after,
+::before {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Grandstander", sans-serif;
+}
+
+body {
+	min-height: 100vh;
+	background: #214252;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.container {
+	padding: 2em;
+	text-align: center;
+	font-size: clamp(10px, 5vw, 30px);
+	color: #fff;
+	width: 60%;
+    height: 20em;
+    line-height: 1.5;
+	background: #f05454;
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+}
+
+button {
+	padding: 1em 2em;
+	background: #214252;
+	color: #fff;
+	font-size: clamp(15px, 5vw, 20px);
+	border: none;
+	border-radius: 0.5em;
+	box-shadow: 0 2px 5px #af2d2d;
+}
+
+button:active {
+	transform: translateY(2px);
+}
